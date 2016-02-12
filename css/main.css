@@ -1,3 +1,85 @@
-/*
-	Inserta tu CSS aqui
-*/
+body {
+	width: 100%;
+	height: 100%;
+} /* Ajustando al 100% el body cualquier elemento que se encuentre en él 
+(fondo por ejemplo) ocupará toda la pantalla. */
+
+header {
+	padding: 25px;
+} /*Este padding me permite situar el elemento mas lejos del borde 
+de la pantalla, "centrarlo"*/
+
+.header-fondo {
+	background-image: url("../img/grupal.jpg");
+	width: 100%;
+	height: 800px;
+	background-size: cover;
+}
+ /*cover permite que la imagen (o elemento) de fondo sea tan larga como se pueda
+	y así cubra toda el area; le dice al navegador que siempre cubra el espacio que la contiene, 
+	asi tenga que alargar o estrechar la imagen OJO!! Al incluir un w & h específico ¿el tamaño es fijo?*/
+
+
+.bt-suma {
+	background-color: #ffff00;
+	padding: 5px;
+	width: 100px;
+	text-align: center;
+	margin: 0px 50px;
+}
+
+a.btS:hover {
+	background: ;
+	font-size: 150%;
+} /*hover hace que cuando pases el cursor sobre el elemento
+cambie en color, tamaño de letra, fondo y otras*/
+
+a.btS {
+	color: black;
+}
+
+.logo {
+	width: 100%;
+	align-self: center;
+}
+
+li a:hover {
+	color: turquoise;
+
+}
+
+li {
+	display: inline;
+	padding: 5px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.menu {
+	color: white;
+}
+.minis{
+	width: 100%
+}
+
+.foto-mini {
+	margin: 50px 20px;
+}
+
+h3 {
+ 	border-bottom: 1px solid black;	
+}
+
+footer {
+ 	background-color: grey;
+ 	padding: 20px;
+}
+
+p {
+	margin-top: 20px;
+	text-align: center;
+	height: 20px;
+}
+
